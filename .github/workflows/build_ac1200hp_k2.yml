@@ -21,9 +21,9 @@ on:
 env:
   TIME_ZONE: Asia/Shanghai
   FIRMWARE_PATH: /opt/firmwares
-  UPLOAD_COWTRANSFER: true
-  UPLOAD_WETRANSFER: false
-  SERVERCHAN_NOTIFICATION: true
+  UPLOAD_COWTRANSFER: false
+  UPLOAD_WETRANSFER: true
+  SERVERCHAN_NOTIFICATION: false
 jobs:
   build:
     runs-on: ubuntu-16.04
